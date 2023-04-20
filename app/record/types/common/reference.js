@@ -47,6 +47,7 @@ class Reference extends BaseObject {
         if (!this.typeId) {
             delete attr.typeId;
         }
+
         return attr;
     }
 

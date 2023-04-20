@@ -23,29 +23,30 @@ class List extends BaseObject {
     }
 
     getNode() {
-
         const attributes = this._getAttributes();
         const type = this._getSoapType();
 
-        if(!type){
+        if (!type) {
             throw new Error(`Invalid SOAP type ${type}`);
         }
 
         const node = {};
 
-        node[type] = {};
+        node[type] = [];
 
         if (attributes) {
             node[type]["$attributes"] = attributes;
         }
 
+        let xml = "";
         this.list.forEach((el) => {
             if (!el._type) {
                 el._type = this._type;
             }
-            Object.assign(node[type], el.getNode());
+            node[type].push(el.getNode());
         });
 
+        node[type].$xml = xml;
         return node;
     }
 }
