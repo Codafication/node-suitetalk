@@ -1,6 +1,6 @@
 {
   "name": "@teamcodafication/node-suitetalk",
-  "version": "0.0.7-codafication.1",
+  "version": "0.0.7-codafication.2",
   "description": "NodeJs Suitetalk wrapper.",
   "main": "app/index.js",
   "engines": {
@@ -8,12 +8,11 @@
     "npm": ">=6.2.0"
   },
   "dependencies": {
-    "adm-zip": "^0.4.11",
-    "crypto": "^1.0.1",
+    "adm-zip": "^0.5.9",
     "denodeify": "^1.2.1",
-    "lodash": "^4.17.10",
-    "mkdirp": "^0.5.1",
-    "soap": "^0.25.0",
-    "superagent": "^3.8.3"
+    "lodash": "^4.17.21",
+    "mkdirp": "^1.0.4",
+    "soap": "^0.43.0",
+    "superagent": "^7.0.2"
   }
 }
