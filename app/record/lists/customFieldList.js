@@ -56,7 +56,7 @@ class CustomFieldList extends BaseObject {
 
             xml.push(`>`);
 
-            if (v) {
+            if (typeof(v) !== undefined ) {
                 xml.push(`<platformCore:value>${v}</platformCore:value>`);
             } else if (x) {
                 xml.push(x);
