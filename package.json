@@ -1,6 +1,6 @@
 {
   "name": "@teamcodafication/node-suitetalk",
-  "version": "0.0.7-codafication.6",
+  "version": "0.0.7-codafication.7",
   "description": "NodeJs Suitetalk wrapper.",
   "main": "app/index.js",
   "engines": {
