@@ -8,6 +8,8 @@ class Invoice extends Record {
         super();
         this._type = "tranSales";
         this._name = "Invoice";
+        this.nullFieldList = undefined;
+        this.customFieldList = undefined;
     }
 }
 
