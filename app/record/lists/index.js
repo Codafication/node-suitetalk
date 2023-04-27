@@ -8,6 +8,8 @@ const Lists = {
     VendorAddressbook: require("./vendorAddressbook"),
     VendorAddressbookList: require("./vendorAddressbookList"),
     NullFieldList: require("./nullFieldList"),
+    InvoiceItem: require("./InvoiceItem"),
+    InvoiceItemList: require("./InvoiceItemList"),
     SalesOrderItem: require("./salesOrderItem"),
     SalesOrderItemList: require("./salesOrderItemList"),
     TransferOrderItem: require("./transferOrderItem"),
