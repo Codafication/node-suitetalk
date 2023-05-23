@@ -21,6 +21,7 @@ const Types = {
     TransferOrder: require("./transferOrder"),
     CreditMemo: require("./creditMemo"),
     InventoryItem: require("./inventoryItem"),
+    File: require("./file")
 };
 
 module.exports = Types;
