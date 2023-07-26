@@ -131,7 +131,7 @@ function _getNameSpaces(configuration) {
         tranGeneral: `urn:general_${configuration.apiVersion}.transactions.webservices.netsuite.com`,
         tranInvt: `urn:inventory_${configuration.apiVersion}.transactions.webservices.netsuite.com`,
         tranSales: `urn:sales_${configuration.apiVersion}.transactions.webservices.netsuite.com`,
-        tranPurch: `urn:purchases_${configuration.apiVersion}.transactions.webservices.netsuite.com`,
+        tranPurch: `urn:purchases_${configuration.apiVersion}.transactions.webservices.netsuite.com`
     };
 }
 
