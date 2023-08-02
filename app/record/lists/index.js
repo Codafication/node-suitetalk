@@ -3,19 +3,21 @@
 const Lists = {
     Address: require("./address"),
     CustomerAddressbook: require("./customerAddressbook"),
+    CreditMemoItem: require("./creditMemoItem"),
+    CreditMemoItemList: require("./creditMemoItemList"),
     CustomerAddressbookList: require("./customerAddressbookList"),
     CustomFieldList: require("./customFieldList"),
-    VendorAddressbook: require("./vendorAddressbook"),
-    VendorAddressbookList: require("./vendorAddressbookList"),
-    NullFieldList: require("./nullFieldList"),
     InvoiceItem: require("./invoiceItem"),
     InvoiceItemList: require("./invoiceItemList"),
+    NullFieldList: require("./nullFieldList"),
     SalesOrderItem: require("./salesOrderItem"),
     SalesOrderItemList: require("./salesOrderItemList"),
     TransferOrderItem: require("./transferOrderItem"),
     TransferOrderItemList: require("./transferOrderItemList"),
-    CreditMemoItem: require("./creditMemoItem"),
-    CreditMemoItemList: require("./creditMemoItemList")
+    VendorAddressbook: require("./vendorAddressbook"),
+    VendorAddressbookList: require("./vendorAddressbookList"),
+    VendorBillItem: require("./vendorBillItem"),
+    VendorBillItemList: require("./vendorBillItemList"),
 };
 
 module.exports = Lists;
